@@ -5,6 +5,7 @@
     {
         "id": 1,
         "name": "Snowflake Ornament",
+        "category": "christmas",
         "picture": "assets/products/christmas_gift/Snowflake.jpg",
         "price": 45.5,
         "description": "Celebrate everyone in the family with these statement-making personalized Christmas ornaments"
@@ -12,6 +13,7 @@
     {
         "id": 2,
         "name": "Merry Christmas Poster Cake",
+        "category": "christmas",
         "picture": "assets/products/christmas_gift/Christmas_Cake.jpg",
         "price": 12,
         "description": "Amazing fresh cream poster cake that has festive special Santa, tree and elf design as the icing"
@@ -19,6 +21,7 @@
     {
         "id": 3,
         "name": "Araucaria Xmas Tree In Jute Basket With Decorations",
+        "category": "christmas",
         "picture": "assets/products/christmas_gift/Araucaria_Xmas.jpg",
         "price": 35,
         "description": "A native of Chile, the Araucaria is an evergreen pine tree and makes for a perfect Xmas tree"
@@ -26,6 +29,7 @@
     {
         "id": 4,
         "name": "Glittering Reindeers For Christmas",
+        "category": "christmas",
         "picture": "assets/products/christmas_gift/Reindeers.jpg",
         "price": 10.5,
         "description": "This set of 2 decorative reindeers are certain to bring festive cheer and vibes into the home. The aluminium decor pieces are covered with golden glitter on the torso and silver glitter on the horns."
@@ -33,6 +37,7 @@
     {
         "id": 5,
         "name": "Snowmen Family Personalized Canvas Pillow",
+        "category": "christmas",
         "picture": "assets/products/christmas_gift/Snowmen.jpg",
         "price": 7.5,
         "description": "What to gift a family that loves snow, cocoa, gifts and all things Christmas? Send this festive canvas pillow-cum-cushion to them. The front panel features 3 charing snowmen."
@@ -40,6 +45,7 @@
     {
         "id": 6,
         "name": "Couple Gift Tray With Shakers and Personalized Mugs",
+        "category": "valentine",
         "picture": "assets/products/valentine_gift/Personalized_Mugs.jpg",
         "price": 12.5,
         "description": "Black and white, yin and yang, male and female; opposites but complementary. Here is a set that represents this concept of different yet similar. The wooden black tray contains a hugging salt and pepper shaker set. a black mug for him and a white mug for her. Personalize the mugs with names."
@@ -47,6 +53,7 @@
     {
         "id": 7,
         "name": "Premium Chocolate Truffles ",
+        "category": "valentine",
         "picture": "assets/products/valentine_gift/Chocolate.jpg",
         "price": 15,
         "description": "A party of flavours for your taste buds, this box of 12 chocolate truffles is what defines gourmet delicacy. The flavours include Hazelnut, Coconut, Orange, Strwaberry, Dulce de Leche and Mixed Fruit. Each truffle has been handcrafted with care to create a selection of heavenly confectionery."
@@ -54,6 +61,7 @@
     {
         "id": 8,
         "name": "Beautiful Bouquet of 8 Roses",
+        "category": "valentine",
         "picture": "assets/products/valentine_gift/Roses.jpg",
         "price": 5.5,
         "description": "The number 8 symbolizes infinity. Confess your infinite love for someone close with this special bouquet of 8 fresh roses, wrapped and tied with a satiny red ribbon. Your feelings and heartfelt emotions can't find a better way of expression than this vermillion celebration of roses"
@@ -61,6 +69,7 @@
     {
         "id": 9,
         "name": "Wooden Lamp with Love Quotes",
+        "category": "valentine",
         "picture": "assets/products/valentine_gift/Wooden.jpg",
         "price": 6.5,
         "description": "Designed to illuminate your home, the Wooden Lamp with sweet Love Quotes creates a warm & cozy nook to relax while spending some quality time with self or your partner. Designed with cute hearts to irradiate a soft glowing light without irritating the eyes.0"
@@ -68,6 +77,7 @@
     {
         "id": 10,
         "name": "Romantic Personalized LED Bottle Lamp",
+        "category": "valentine",
         "picture": "assets/products/valentine_gift/Romantic.jpg",
         "price": 12,
         "description": "Let love take over. As a moody night lamp or home decor piece in the living room, this LED Bottle Lamp in glass radiates a beautiful aura."
@@ -75,6 +85,7 @@
     {
         "id": 11,
         "name": "Personalized New Year Coasters with Stand ",
+        "category": "newyear",
         "picture": "assets/products/newyear_gift/Coasters.jpg",
         "price": 7.5,
         "description": "Set the new-year party table perfectly with the Personalized New Year Coasters With Stand. It beautifully captures the mood of new beginnings in awesome quotes. Flaunt it on your tables or gift it as a keepsake with a beautiful Photo to be loved and cherished by the recipient forever."
@@ -82,6 +93,7 @@
     {
         "id":12,
         "name": "Silver and Savvy New Year Hamper",
+        "category": "newyear",
         "picture": "assets/products/newyear_gift/Hamper.jpg",
         "price": 49.5,
         "description": "Ring into the freshly brewed new year with a chic silver touch- white disbuds and chrysanthemum, roses, with silver eucalyptus, table palm, gypso and New Year balloon with black fur are sure to savvy-up the festivities."
@@ -90,6 +102,7 @@
     {
         "id": 13,
         "name": "Flavoured Dry Fruits With Chocolate And Candle New Year Basket",
+        "category": "newyear",
         "picture": "assets/products/newyear_gift/Fruits.jpg",
         "price": 12,
         "description": "A beautiful gold-toned metal basket comes with two decorative containers that have black pepper cashews and sesame caramel almonds; a dark chocolate bar and a metal candle votive with a heavenly rose fragrance. The basket comes with a New Year greeting card."
@@ -97,6 +110,7 @@
     {
         "id": 14,
         "name": "New Year 2022 Cake - Black Forest",
+        "category": "newyear",
         "picture": "assets/products/newyear_gift/Forest.jpg",
         "price": 8.5,
         "description": "Ring in the new year 2022 with this delicious and tempting black forest cake. Make this half kg fresh cream cake a part of your countdown and celebrations."
@@ -104,6 +118,7 @@
     {
         "id": 15,
         "name": "Dog Lover Personalized Spiral 2022 Desk Calenda",
+        "category": "newyear",
         "picture": "assets/products/newyear_gift/Dog.jpg",
         "price": 9.5,
         "description": "If you are a dog parent or simply a paw-some person, you will love this calendar. Each page of the 2022 spiral desk calendar features a pencil doodle art form of dog love. A perfect gift for your dog-loving friends and family. Personalize with a name.0"
@@ -111,6 +126,7 @@
     {
         "id": 16,
         "name": "Tasteful Indulgence Birthday Hamper",
+        "category": "birthday",
         "picture": "assets/products/birthday_gift/Tasteful.jpg",
         "price": 38,
         "description": "A savory escape planned with peach roses & spray carnations with a vegan california pistachio bites,caramel popcorn,caramel coated rice krispies & almond brittles along with a birthday banner seal the deal"
@@ -118,6 +134,7 @@
     {
         "id": 17,
         "name": "Telescope (6 Inch) in Personalized Wooden Birthday Box",
+        "category": "birthday",
         "picture": "assets/products/birthday_gift/Telescope.jpg",
         "price": 10,
         "description": "Say Happy Birthday to your favorite maritime sailor with this uniquely designed decor Telescope ideal as a nautical keepsake with an antique finish in brass. The ancient carvings make this one special. Personalize the Wooden Box with their name to put a unique tou."
@@ -125,6 +142,7 @@
     {
         "id": 18,
         "name": "Healthy Feast Gift Hamper",
+        "category": "birthday",
         "picture": "assets/products/birthday_gift/Healthy.jpg",
         "price": 54.5,
         "description": "This premium health hamper is an assortment of cranberry almond crisps, oats cranberry cookies,chocolate bar,Caramelized Sesame Almonds 100 gms,Honey Limon tea,printed jute bags,with shades of pink and peach roses &carnations"
@@ -132,6 +150,7 @@
     {
         "id": 19,
         "name": "Sway Me Pink",
+        "category": "birthday",
         "picture": "assets/products/birthday_gift/Sway.jpg",
         "price": 44.5,
         "description": "Smitten in pink, these gorgeous birthday blooms are meant to recreate a pink paradise for your dear one. Surprise them with this magnificent arrangement. Comes with an adorable birthday balloon with pink feathers."
@@ -139,6 +158,7 @@
     {
         "id": 20,
         "name": "Birthday Personalized LED Lights Bottle",
+        "category": "birthday",
         "picture": "assets/products/birthday_gift/Bottle.jpg",
         "price": 10.5,
         "description": "Wishing your loved one a happy birthday has to be creative and unique. This glass bottle makes it easier for you. The wooden cork stopper conceals the operating mechanism of an LED light string. The bright card can be personalized with their photo. The decor piece can be reused for water storage."
@@ -147,6 +167,7 @@
     {
         "id": 21,
         "name": "Infinity Heart Rose Gold Finish Pendant",
+        "category": "wedding",
         "picture": "assets/products/wedding_gift/Pendant.jpg",
         "price": 5,
         "description": "The symbol of timeless love-this Infinity Heart Rose Gold Finish Pendant crafted in Brass gracefully brings a touch of romance to your attire. This delicate accessory in mesmerizing rose gold color is not something you want to part ways with any day. Surely a token of pure love and romance."
@@ -154,6 +175,7 @@
     {
         "id": 22,
         "name": "Classic Red Velvet Cake ",
+        "category": "wedding",
         "picture":"assets/products/wedding_gift/Cake.jpg",
         "price": 16.5,
         "description": "Layered with blushed cherry color and white cream cheese, this Red Velvet delicacy is undeniably irresistible. Garnished with little heart shaped crimson colored frosting - a sinful surprise, melt hearts with this baker's perfection."
@@ -161,6 +183,7 @@
     {
         "id": 23,
         "name": "Mr. & Mrs. Personalized Anniversary Cushion Set",
+        "category": "wedding",
         "picture": "assets/products/wedding_gift/Setalized.jpg",
         "price": 18.5,
         "description": "Personalized cushion set of Mr. & Mrs. can be gifted to a couple that you are close to. These are of satin material and available in 2 different sizes in pure white color."
@@ -168,6 +191,7 @@
     {
         "id": 24,
         "name": "Perfect Wooden Photo Stand Set for Special One",
+        "category": "wedding",
         "picture": "assets/products/wedding_gift/Perfect.jpg",
         "price": 11.5,
         "description": "Add a romantic touch to the ambience of home with the Perfect Wooden Photo Stand. This Perfect Wooden Photo Stand Set Special One is made of real wood. Make it a keepsake by Personalizing with 4 Images, 2 Names and 2 initials. It will make your decor a countryside feel."
@@ -175,6 +199,7 @@
     {
         "id": 25,
         "name": "Designer Watch with Rubi and CZ Stones",
+        "category": "wedding",
         "picture": "assets/products/wedding_gift/Designer.jpg",
         "price": 8,
         "description": "Looking to gift something awesome to a special lady, here's a designer watch with ruby and CZ stones. The round shaped watch has the golden dial studded with stones. The ruby and stones at both sides make the watch look amazing. The golden chain ban is an adjustable one."
@@ -182,6 +207,7 @@
     {
         "id": 26,
         "name": "Mom Of Girl Personalized Caricature Stand",
+        "category": "mothersday",
         "picture":"assets/products/motherday_gift/Caricature_Stand.jpg",
         "price": 8,
         "description": "Like Mother, Like Daughter. This is not just a popular phrase. Mothers and daughters share the most amazing bond. They fill the house with love, light and girl power. Gift this caricature with a wooden stand to her. Personalize it with hers and your face and give it a quirky touch."
@@ -189,6 +215,7 @@
     {
         "id": 27,
         "name": "Love You Mom Gift Box With Everlasting Roses",
+        "category": "mothersday",
         "picture": "assets/products/motherday_gift/Everlasting_Roses.jpg",
         "price": 9.5,
         "description": "Our mother is the most wonderful person who makes our life meaningful and beautiful. Show your love and gratitude to her with this handmade black and gold gift box that contains 14 everlasting roses spelling out 'i love you'."
@@ -196,6 +223,7 @@
     {
         "id": 28,
         "name": "Magical Money Plant for Mom",
+        "category": "mothersday",
         "picture": "assets/products/motherday_gift/Plant.jpg",
         "price": 14,
         "description": "Your mum is precious beyond words. She is the epitome of a diamond that is as rare as it is brilliant. Now you can tell her just how much she means to you with this pristine white planter and Money Plant as a gift on Mother's Day."
@@ -203,6 +231,7 @@
     {
         "id": 29,
         "name": "Wooden Chopping Board & Platter for Mom",
+        "category": "mothersday",
         "picture": "assets/products/motherday_gift/Platter.jpg",
         "price": 12.5,
         "description": "This personalized chopping board is a thoughtful gift for your mother who enjoys cooking. The product can also be used as a platter."
@@ -210,6 +239,7 @@
     {
         "id": 30,
         "name": "Mom My World Personalized Metal Heart Décor",
+        "category": "mothersday",
         "picture": "assets/products/motherday_gift/Mom.jpg",
         "price": 15.5,
         "description": "A simplistic yet beautiful decorative show piece to show your respect, love and admiration to your world - your mother. This table decor piece is made from hammered metal and comes with a loving message for her."

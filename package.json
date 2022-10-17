@@ -2,6 +2,7 @@
   "name": "mainproject",
   "version": "0.0.0",
   "scripts": {
+    "postinstall": "ngcc",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -20,6 +21,7 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "ng2-search-filter": "^0.5.1",
     "ngx-pagination": "^6.0.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

@@ -17,9 +17,9 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { CumstomerserviceComponent } from './pages/cumstomerservice/cumstomerservice.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ProductService } from './product.service';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { PopupdetailsComponent } from './pages/popupdetails/popupdetails.component';
-
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @NgModule({
   declarations: [
@@ -37,13 +37,15 @@ import { PopupdetailsComponent } from './pages/popupdetails/popupdetails.compone
     SignupComponent,
     BlogComponent,
     CumstomerserviceComponent,
-    PopupdetailsComponent,
+    PopupdetailsComponent
   ],
   imports: [
     BrowserModule,
+    Ng2SearchPipeModule,
     AppRoutingModule,
     NgxPaginationModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
