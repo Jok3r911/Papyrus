@@ -6,10 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  submitted = false;
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
+  onSubmit() {
+    this.submitted = true;
+
+   
+    if (this.submitted) {
+      alert('Logged in successfully');
+      window.location.href = '#';
+    }
+}
 
 }
