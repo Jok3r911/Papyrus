@@ -1,8 +1,8 @@
 
 import { Component, Input, OnInit } from '@angular/core';
-import productsdata from '../../products.json';
-import { Products } from 'src/app/Products';
-import { ProductService } from 'src/app/product.service';
+import productsdata from 'src/app/products/products.json';
+import { Products } from 'src/app/products/Products';
+import { ProductService } from 'src/app/products/product.service';
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms'; 
 
 
@@ -16,6 +16,7 @@ export class ShopComponent implements OnInit {
   products: Products[] = productsdata;
 
   keyword: string = '';
+  // i: any;
   catStatus = 'all';
   myForm: FormGroup; 
   filteredProducts: any = []; 

@@ -16,7 +16,7 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { CumstomerserviceComponent } from './pages/cumstomerservice/cumstomerservice.component';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { ProductService } from './product.service';
+import { ProductService } from './products/product.service';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { PopupdetailsComponent } from './pages/popupdetails/popupdetails.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
