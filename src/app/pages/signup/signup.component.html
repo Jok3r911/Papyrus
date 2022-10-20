@@ -135,7 +135,7 @@
                     Password must be at least 6 characters
                   </div>
                   <div *ngIf="f['password'].errors['maxlength']">
-                    Username must not exceed 40 characters
+                    Password must not exceed 40 characters
                   </div>
                 </div>
               </div>
@@ -178,7 +178,7 @@
                   id="form2Example33"
                   formControlName="acceptTerms"
                   checked
-                  style="left: 75px"
+                  style="left: 60px; top: -2px;"
                   [ngClass]="{
                     'is-invalid': submitted && f['acceptTerms'].errors
                   }"

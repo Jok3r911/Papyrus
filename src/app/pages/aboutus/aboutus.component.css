@@ -107,12 +107,12 @@
 }
 
 .card-img-top{
-    max-height: 400px;
+    max-height: 350px;
     width: auto;
 }
 
 .text-xl-start{
-    margin-left: 40px;
+    
     margin-top: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -121,8 +121,9 @@
 
 }
 .list-image{
-    display: flex;
-    justify-content: space-between;
+    align-items: center;
+    
+    text-align: center;
 }
 .list-image_logo{
     margin: 10px 10px;

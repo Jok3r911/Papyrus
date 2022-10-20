@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+
 import {
   AbstractControl,
   FormBuilder,
@@ -13,8 +14,17 @@ import usersdata from 'src/app/validation/usersdata.json'
   selector: 'app-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SignupComponent implements OnInit {
+  form: FormGroup = new FormGroup({
+    firstname: new FormControl(''),
+    lastname: new FormControl(''),
+    email: new FormControl(''),
+    password: new FormControl(''),
+    confirmPassword: new FormControl(''),
+    acceptTerms: new FormControl(false),
+  });
 
   // users: Users[] = usersdata;
 
@@ -26,6 +36,7 @@ export class SignupComponent implements OnInit {
     confirmPassword: new FormControl(''),
     acceptTerms: new FormControl(false),
   });
+
   submitted = false;
 
   constructor(private formBuilder: FormBuilder) {}
@@ -38,7 +49,7 @@ export class SignupComponent implements OnInit {
           '',
           [
             Validators.required,
-            Validators.minLength(6),
+            Validators.minLength(2),
             Validators.maxLength(20),
           ],
         ],
@@ -61,7 +72,6 @@ export class SignupComponent implements OnInit {
   }
   get f(): { [key: string]: AbstractControl } {
     return this.form.controls;
-  }
 
   onSubmit(): void {
     this.submitted = true;
@@ -72,7 +82,6 @@ export class SignupComponent implements OnInit {
     if (this.submitted) {
       alert('Successful Registration');
       window.location.href = '#';
-      
     }
 
     console.log(JSON.stringify(this.form.value, null, 2));
