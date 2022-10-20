@@ -1,0 +1,10 @@
+[
+    {
+        "firstname": "",
+        "lastname": "",
+        "email": "",
+        "password": "",
+        "confirmPassword": "",
+        "acceptTerms": false
+    }
+]

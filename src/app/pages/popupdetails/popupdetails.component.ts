@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Products } from 'src/app/Products';
+import { Products } from 'src/app/products/Products';
 
 @Component({
   selector: 'app-popupdetails',

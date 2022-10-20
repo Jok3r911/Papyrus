@@ -27,10 +27,10 @@
             <a href="" class="Page_view" style="color: #1c5bb7;">
             <p>Page View: <span id="visits"></span></p>    
             </a>
-            <a routerLink="Cart" class="btn border">
+            <!-- <a routerLink="Cart" class="btn border">
                 <i class="fas fa-shopping-cart text-primary"></i>
                 <span class="badge">0</span>
-            </a>
+            </a> -->
         </div>
     </div>
 </div>
@@ -46,13 +46,12 @@
             </a>
             <nav class="collapse show navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0" id="navbar-vertical">
                 <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
-               
-                    <a href="" class="nav-item nav-link">Birthday</a>
-                    <a href="" class="nav-item nav-link">Christmas</a>
-                    <a href="" class="nav-item nav-link">Mother's Day </a>
-                    <a href="" class="nav-item nav-link">Happy New Year</a>
-                    <a href="" class="nav-item nav-link">Valentine</a>
-                    
+                    <a routerLink="Birthday" class="nav-item nav-link">Birthday</a>
+                    <a routerLink="Christmas" class="nav-item nav-link">Christmas</a>
+                    <a routerLink="Mothersday" class="nav-item nav-link">Mother's Day </a>
+                    <a routerLink="Newyear" class="nav-item nav-link">Happy New Year</a>
+                    <a routerLink="Valentine" class="nav-item nav-link">Valentine</a>
+                    <a routerLink="Wedding" class="nav-item nav-link">Wedding</a>      
                 </div>
             </nav>
         </div>
@@ -87,8 +86,8 @@
                         <a routerLink="Aboutus" class="nav-item nav-link">About Us</a>
                     </div>
                     <div class="navbar-nav ml-auto py-0">
-                        <a routerLink="Login" class="nav-item nav-link">Login</a>
-                        <a routerLink="Signup" class="nav-item nav-link">Register</a>
+                        <a routerLink="/Login" href="#router-outlet" class="nav-item nav-link">Login</a>
+                        <!-- <a routerLink="Signup" class="nav-item nav-link">Register</a> -->
                     </div>
                 </div>
             </nav>

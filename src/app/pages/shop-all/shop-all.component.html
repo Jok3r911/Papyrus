@@ -1,0 +1,120 @@
+<!-- Page Header Start -->
+<div class="container-fluid bg-secondary mb-5">
+    <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+        <h1 class="font-weight-semi-bold text-uppercase mb-3">Our Shop</h1>
+        <div class="d-inline-flex">
+            <p class="m-0"><a routerLink="Main">Home</a></p>
+            <p class="m-0 px-2">-</p>
+            <p class="m-0">Shop</p>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+
+<!-- Shop Start -->
+<div class="container-fluid pt-5">
+    <div class="row px-xl-5">
+        <!-- Shop Sidebar Start -->
+        <div class="col-lg-3 col-md-12">
+            <!-- Price Start -->
+
+            <div class="border-bottom mb-4 pb-4">
+                <div class="dropdown ml-4"> 
+                    <h5 class="font-weight-semi-bold mb-4">Filter by price</h5>
+                    <form [formGroup]="myForm"> 
+                        <select class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" name="Price" formControlName="filterProduct" placeholder="price"> 
+                            <option class="dropdown-item" value="all">Show All</option>
+                            <option *ngFor="let k of PriceFilter; let i = index;" [ngValue]="getValue(i)"> {{ getValue(i).displayText }} </option> 
+                        </select> 
+                    </form> 
+                </div><br><br><br>
+            </div>
+
+            <!-- <div class="border-bottom mb-4 pb-4">
+                <div class="dropdown ml-4"> 
+                    <h5 class="font-weight-semi-bold mb-4">Filter by price</h5>
+                    <form [formGroup]="myForm">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" *ngFor="let k of PriceFilter; let i = index;" [(ngModel)]="getValue(i)">
+                            <label class="custom-control-label" for="price-all">{{ getValue(i).displayText }}</label>
+                        </div>
+                    </form> 
+                </div><br><br><br>
+            </div> -->
+
+            <!-- Price End -->            
+        </div>
+        <!-- Shop Sidebar End -->
+
+
+        <!-- Shop Product Start -->
+        <div class="col-lg-9 col-md-12">
+            <div class="row pb-3">
+                <div class="col-12 pb-1">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <div class="input-group">
+                            <input type="text" class="form-control" [(ngModel)]= "keyword" placeholder="Search by name">
+                            <div class="input-group-append">
+                                <span class="input-group-text bg-transparent text-primary">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            
+                <!-- List Products -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 pb-1" *ngFor=" let products of filteredProducts | filter:keyword | paginate: {itemsPerPage: 9, currentPage: p, totalItems: total}">   
+                            <div class="card product-item border-0 mb-4">
+                            <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                                <a (click)="onSelect(products)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"><img class="img-fluid w-100" [src]= "products.picture" alt=""></a>
+                            </div>
+                            <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                                <h6 class="text-truncate mb-3">{{ products.name }}</h6>
+                                <div class="d-flex justify-content-center">
+                                    <h6>${{ products.price }}</h6><h6 class="text-muted ml-2"></h6>
+                                    <h6 class="text-muted ml-2"><del>${{(products.price * 1.2).toFixed(2)}}</del></h6>
+                                </div>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-light border">
+                                <a routerLink="/Detail/{{products.id}}" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                                <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                            </div>
+                            </div>
+                    </div>
+                <!-- </div> -->
+                <!-- List Products End -->
+
+                <!-- Pagination from here -->
+                <div class="col-12 pb-1">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination justify-content-center mb-3 page-item">
+                            <pagination-controls (pageChange)="p = $event" ></pagination-controls>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Pagination End  -->
+
+                <!-- <ng-template #noResults>
+                    <p>No results found for "{{keyword}}".</p>
+                </ng-template> -->
+
+            </div>
+        </div>
+        <!-- Shop Product End -->
+
+        <!-- Popup Start -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" style="background-color: #fff">
+                <div *ngIf="SelectedPro">
+                    <app-popupdetails [products]="SelectedPro"></app-popupdetails>
+                </div>
+            </div>
+        </div>
+        <!-- Popup End -->
+
+    </div>
+</div>
+<!-- Shop End -->

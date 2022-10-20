@@ -40,7 +40,7 @@
                       placeholder="SurName"
                       formControlName="firstname"
                       [ngClass]="{
-                        'is-invalid': submitted && f['firstwname'].errors
+                        'is-invalid': submitted && f['firstname'].errors
                       }"
                     />
                     <div
@@ -77,7 +77,7 @@
                         Last Name is required
                       </div>
                       <div *ngIf="f['lastname'].errors['minlength']">
-                        Last Name must be at least 2 characters
+                        Last Name must be at least 6 characters
                       </div>
                       <div *ngIf="f['lastname'].errors['maxlength']">
                         Last Name must not exceed 20 characters

@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+
 import {
   AbstractControl,
   FormBuilder,
@@ -6,7 +7,8 @@ import {
   FormGroup,
   Validators,
 } from '@angular/forms';
-import Validation from 'src/app/validation';
+import Validation, { Users } from 'src/app/validation/validation';
+import usersdata from 'src/app/validation/usersdata.json'
 
 @Component({
   selector: 'app-signup',
@@ -15,6 +17,17 @@ import Validation from 'src/app/validation';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SignupComponent implements OnInit {
+  form: FormGroup = new FormGroup({
+    firstname: new FormControl(''),
+    lastname: new FormControl(''),
+    email: new FormControl(''),
+    password: new FormControl(''),
+    confirmPassword: new FormControl(''),
+    acceptTerms: new FormControl(false),
+  });
+
+  // users: Users[] = usersdata;
+
   form: FormGroup = new FormGroup({
     firstname: new FormControl(''),
     lastname: new FormControl(''),
@@ -59,7 +72,6 @@ export class SignupComponent implements OnInit {
   }
   get f(): { [key: string]: AbstractControl } {
     return this.form.controls;
-  }
 
   onSubmit(): void {
     this.submitted = true;
