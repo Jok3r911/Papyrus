@@ -3,14 +3,12 @@ import productsdata from 'src/app/products/products.json';
 import { Products } from 'src/app/products/Products';
 import { ProductService } from 'src/app/products/product.service';
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms'; 
-
-
 @Component({
-  selector: 'app-shop',
-  templateUrl: './shop.component.html',
-  styleUrls: ['./shop.component.css']
+  selector: 'app-shop-valentine',
+  templateUrl: './shop-valentine.component.html',
+  styleUrls: ['./shop-valentine.component.css']
 })
-export class ShopComponent implements OnInit {
+export class ShopValentineComponent implements OnInit {
 
   products: Products[] = productsdata;
 
@@ -99,4 +97,5 @@ export class ShopComponent implements OnInit {
     const all = this.catStatus === 'all';
     const christmas = this.catStatus === 'christmas';
   }
+
 }

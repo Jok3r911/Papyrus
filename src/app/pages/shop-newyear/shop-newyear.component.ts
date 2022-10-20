@@ -4,13 +4,12 @@ import { Products } from 'src/app/products/Products';
 import { ProductService } from 'src/app/products/product.service';
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms'; 
 
-
 @Component({
-  selector: 'app-shop',
-  templateUrl: './shop.component.html',
-  styleUrls: ['./shop.component.css']
+  selector: 'app-shop-newyear',
+  templateUrl: './shop-newyear.component.html',
+  styleUrls: ['./shop-newyear.component.css']
 })
-export class ShopComponent implements OnInit {
+export class ShopNewyearComponent implements OnInit {
 
   products: Products[] = productsdata;
 

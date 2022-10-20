@@ -20,6 +20,14 @@ import { ProductService } from './products/product.service';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { PopupdetailsComponent } from './pages/popupdetails/popupdetails.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { ShopMothersdayComponent } from './pages/shop-mothersday/shop-mothersday.component';
+import { ShopBirthdayComponent } from './pages/shop-birthday/shop-birthday.component';
+import { ShopChristmasComponent } from './pages/shop-christmas/shop-christmas.component';
+import { ShopNewyearComponent } from './pages/shop-newyear/shop-newyear.component';
+import { ShopValentineComponent } from './pages/shop-valentine/shop-valentine.component';
+import { ShopWeddingComponent } from './pages/shop-wedding/shop-wedding.component';
+import { ShopAllComponent } from './pages/shop-all/shop-all.component';
+
 
 @NgModule({
   declarations: [
@@ -37,7 +45,14 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     SignupComponent,
     BlogComponent,
     CumstomerserviceComponent,
-    PopupdetailsComponent
+    PopupdetailsComponent,
+    ShopMothersdayComponent,
+    ShopBirthdayComponent,
+    ShopChristmasComponent,
+    ShopNewyearComponent,
+    ShopValentineComponent,
+    ShopWeddingComponent,
+    ShopAllComponent
   ],
   imports: [
     BrowserModule,

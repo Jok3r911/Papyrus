@@ -12,9 +12,6 @@ h1 {
   font-size: 1.5em;
   margin: 10px;
 }
-.control-group{
-    width: 90%;
-}
 /***** Style Star Rating Widget ****/
 #rating {
   border: none;
